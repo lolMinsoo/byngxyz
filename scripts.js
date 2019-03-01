@@ -1,3 +1,5 @@
+document.addEventListener('DOMContentLoaded', function() {
+
 const home_link = document.getElementById("home");
 const resume_link = document.getElementById("resume");
 const about_link = document.getElementById("about");
@@ -42,3 +44,5 @@ function main() {
 }
 
 main(); 
+
+}, false);
