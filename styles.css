@@ -58,12 +58,14 @@ header > h1 {
 	padding-left: 260px;
 	height: 100%;
 	position: all;
+	font-size: 30px;
 }
 #main {
 	padding-left: 260px;
-	padding-top: 150px;
+	padding-top:70px;
 	height: 100%;
 	position: all;
+	font-size: 17px;
 }
 
 #resume-content {
