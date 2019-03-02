@@ -2,9 +2,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
 const home_link = document.getElementById("home");
 const resume_link = document.getElementById("resume");
+const projects_link = document.getElementById("projects");
 const about_link = document.getElementById("about");
 const home_content = document.getElementById("home-content");
 const resume_content = document.getElementById("resume-content");
+const projects_content = document.getElementById("projects-content");
 const about_content = document.getElementById("about-content");
 
 
@@ -13,6 +15,7 @@ function contentReset() {
 	home_content.style.display = "none";
 	resume_content.style.display = "none";
 	about_content.style.display = "none";
+	projects_content.style.display = "none";
 	
 }
 
@@ -38,6 +41,10 @@ function main() {
 	
 	about_link.addEventListener('click', function() {
 		onClick(about_content, about_link);
+	})
+	
+	projects_link.addEventListener('click', function() {
+		onClick(projects_content, projects_link);
 	})
 	
 	

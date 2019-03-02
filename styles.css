@@ -7,7 +7,6 @@
 
 
 
-
 .sidenav {
 	height: 100%;
 	width: 120px;
@@ -50,6 +49,8 @@ body {
 	color: #d3d3d3;
 }
 
+
+
 header > h1 {
 	text-align: center;
 	font-family: Poppins, sans-serif;
@@ -84,6 +85,10 @@ header > h1 {
 }
 
 #about-content {
+	display: none;
+}
+
+#projects-content {
 	display: none;
 }
 
